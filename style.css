@@ -1,0 +1,129 @@
+:root {
+    --skyblue: rgb(221, 234, 248);
+    --grey: #d5d5d5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 10vw;
+}
+
+.header-button {
+    background-color: #00838C;
+    color: #ffff;
+
+}
+
+.domain-offer {
+    height: 37vw;
+    background-color: var(--skyblue);
+}
+
+.hosting-offer {
+    height: 37vw;
+    background-color: var(--grey);
+}
+
+.col-sm-4>div {
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+.hosting-offer-girl {
+    width: 100%;
+    height: 37vw;
+}
+
+.product-table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card4 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.review {
+    height: 50vh;
+    background-color: #f5f7f8;
+
+}
+
+.star-icon img {
+    margin-left: .3vw;
+    width: 1.5vw;
+}
+
+.programs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 90vh;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.domain-search-container {
+    height: 50vh;
+    background-color: #d8efef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.domain-search-btn {
+    width: 50%;
+    height: 10vh;
+}
+
+.godaddy-guide {
+    height: 70vh;
+    background-color: #d0dbee;
+}
+.guid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.godaddy-guide-img {
+    height: 65vh;
+}
+.faq-section{
+    width: 50%;
+
+}
+.footer {
+
+    height: 100vh;
+    background-color: #111111;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+
+
+}
+
+.footer li {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.footer-link-title {
+    font-weight: bold;
+}
