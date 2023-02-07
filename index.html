@@ -15,19 +15,18 @@
 <body>
     <div class="container">
         <!-- Navbar section -->
-
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="./assets/godaddy-logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand" href="#"><img class="logo" src="./assets/godaddy-logo.png"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Domains</a>
+                            <a class="nav-link" href="#">Domains</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Hosting</a>
@@ -49,19 +48,21 @@
                 </div>
             </div>
         </nav>
-        <!-- end navbar -->
 
         <!-- search box -->
-        <div class="row">
-            <div class="col-6">
+        <div class="row section-1">
+            <div class=" col-12 col-lg-7 col-sm-12">
                 <div class="input-group mb-3 input-group-lg">
-                    <input type="text" class="form-control" placeholder="Recipient's username"
-                        aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary header-button" type="button"
-                        id="button-addon2">Button</button>
+                    <input type="text" class="form-control header-input" placeholder="Search Domain"
+                        aria-describedby="button-addon2">
+                    <button class="d-none d-lg-block btn btn-outline-secondary header-button" type="button"
+                        id="button-addon2">Search
+                        Domain</button>
+                    <button class="	d-lg-none d-xl-none d-sm-block d-xs-block header-button btn btn-outline-secondary "
+                        type="button" id="button-addon2"><i class="bi bi-search"></i></button>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-5 d-none d-lg-block">
                 <nav class="navbar navbar-expand-lg float-end">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -85,17 +86,18 @@
             </div>
         </div>
 
-        <div class="row ">
-            <div class="col-4 ">
+        <div class="row section-2">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-4">
                 <div class="domain-offer d-flex flex-column justify-content-center align-items-center">
                     <p>Domain Names</p>
                     <h1>Get a .com for ‪₹ 139.00*‬/1st yr.</h1>
                     <p>Grab the world's most popular domain.</p>
                     <button class="btn btn-dark">Get It Now</button>
+                    <p class="text-center">3-year purchase required. Additional year(s) ‪₹ 1,199.00*‬</p>
 
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-8">
                 <div class="hosting-offer">
                     <div class="row align-items-center">
                         <div class="col-6">
@@ -118,54 +120,50 @@
                 </div>
             </div>
         </div>
-        <div class="">
-            <div class="product-table">
-                <div class="card card1">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
-                <div class="card card2">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
-                <div class="card card3">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
-                <div class="card card4">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
-                <div class="card card5">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
 
-                <div class="card 6">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
-                <div class="card 7">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
-                <div class="card 8">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
-                <div class="card 9">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
-                <div class="card 10">
-                    <p>Professional Email</p>
-                    <p>‪₹29.00/mo</p>
-                </div>
+        <div class="product-table mt-5 mb-5">
+            <div class="card card1">
+                <p>Professional Email</p>
+                <p>‪₹29.00/mo</p>
             </div>
+            <div class="card card2">
+                <p> GoDaddy Pro</p>
+                <p>Sign Up For Free</p>
+
+            </div>
+            <div class="card card3">
+                <p>SSL Security</p>
+                <p class="no-wrap-text">₹ 333.25/mo</p>
+            </div>
+            <div class="card card4">
+                <p>VPS </p><p>₹ 449.00/mo</p>
+            </div>
+            <div class="card card5">
+                <span>.co.in <br>‪₹ 39.00‬/1st yr</span>
+            </div>
+
+            <div class="card card6">
+                <p>Managed WordPress</p> <p>₹ 329.00/mo</p>
+            </div>
+            <div class="card card7">
+                <p>Professional Email</p>
+                <p>‪₹29.00/mo</p>
+            </div>
+            <div class="card card8">
+                <p>Professional Email</p>
+                <p>‪₹29.00/mo</p>
+            </div>
+                    <div class="card card9">
+                        <p>Professional Email</p>
+                        <p>‪₹29.00/mo</p>
+                    </div>
+       
+
         </div>
 
+
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-4 ">
                 <div class="review p-3 d-flex justify-content-evenly flex-column">
                     <p>The support person have good knowledge…</p>
                     <span class="star-icon"><img src="./assets/star.svg" alt=""><img src="./assets/star.svg" alt=""><img
@@ -176,7 +174,7 @@
                     <small class="">Niraj Singh</small>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-4">
                 <div class="review p-3 d-flex justify-content-center flex-column">
                     <p>10 on 10 customer support.</p>
                     <span class="star-icon"><img src="./assets/star.svg" alt=""><img src="./assets/star.svg" alt=""><img
@@ -188,7 +186,7 @@
                     <small>Chandrashekar Mhaskar</small>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-4 ">
                 <div class="review p-3 d-flex justify-content-evenly flex-column">
                     <p>Good Communication Skill by Support Assistant</p>
                     <span class="star-icon"><img src="./assets/star.svg" alt=""><img src="./assets/star.svg" alt=""><img
@@ -202,8 +200,8 @@
         </div>
         <!-- prodcut listing section -->
 
-        <div class="row mt-5">
-            <div class="col-6">
+        <div class="row product-listing">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-6 wordpress-text">
                 <div class="programs d-flex align-items-start lh-lg">
                     <p class="fw-bold"">WordPress Hosting</p>
                     <h1 class=" mt-3 mb-3">Built for speed and security.</h1>
@@ -213,18 +211,18 @@
                     <button class="btn btn-outline-dark btn-lg">See Plans</button>
                 </div>
             </div>
-            <div class="col-6 mb-5">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-6 wordpress-img">
                 <div class="programs">
-                    <img class="product-img" src="./assets/wordpress.webp" alt="">
+                    <img class="product-img wp-image" src="./assets/wordpress.webp" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-6 d-flex align-items-center">
+        <div class="row product-listing">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-6  d-flex align-items-center ">
                 <img class="product-img" src="./assets/tools.webp" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-6">
                 <div class="programs d-flex align-items-start lh-lg">
                     <p class="fw-bold">GoDaddy Pro Program</p>
                     <h1>Free tools for designers and developers.</h1>
@@ -234,14 +232,14 @@
                     </p>
                     <div class="d-flex ms-5">
                         <button class="btn btn-outline-dark btn-lg">Learn More</button>
-                        <i class="bi bi-play-circle-fill ms-2" style="font-size: 2vw"></i>
+                        <i class="bi bi-play-circle-fill ms-2" style="font-size: 2rem"></i>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-6">
+        <div class="row product-listing">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-6 ">
                 <div class="programs d-flex align-items-start lh-lg">
                     <p class="fw-bold">GoDaddy Reseller Program</p>
                     <h1>Start your business with our products.</h1>
@@ -254,39 +252,37 @@
                     <button class="btn btn-outline-dark btn-lg">Choose your Plan</button>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-6 ">
                 <div class="programs">
                     <img class="product-img" src="./assets/products.webp" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-12 domain-search-container">
+                <h1>It all starts with a domain.</h1>
+                <p>Make your idea real. Claim your space online with a domain.</p>
 
-    <div class="row mb-5">
-
-        <div class="col-12 domain-search-container">
-
-            <h1>It all starts with a domain.</h1>
-            <p>Make your idea real. Claim your space online with a domain.</p>
-
-            <div class="input-group input-group-lg mb-3 domain-search-btn">
-                <input type="text" class="form-control" placeholder="Find your perfect domain">
-                <button class="input-group-text btn btn-dark">Search</button>
+                <div class="input-group input-group-lg mb-3 domain-search-btn">
+                    <input type="text" class="form-control" placeholder="Find your perfect domain">
+                    <button class="input-group-text btn btn-dark">Search</button>
+                </div>
             </div>
         </div>
 
-    </div>
+        <div class="row godaddy-guide d-flex justify-content-center align-items-center flex-wrap">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-6 ">
+                <div class="d-flex justify-content-around">
 
-    <div class="row godaddy-guide d-flex justify-content-center align-items-center">
-        <div class="col-6">
-            <div class="d-flex justify-content-around">
-
-                <p>Suraiya J.<br>
-                    GoDaddy Guide</p>
-                <img class="img-fluid godaddy-guide-img" src="./assets/footer-girl.png" alt="">
+                    <p>Suraiya J.<br>
+                        GoDaddy Guide</p>
+                    <img class="img-fluid godaddy-guide-img" src="./assets/footer-girl.png" alt="">
+                </div>
             </div>
-        </div>
-        <div class="col-6">
+
+            <div class="col-12 col-md-12 col-sm-12 col-lg-6 why-godaddy">
 
                 <h1>Why go with GoDaddy?</h1>
                 <p>Because we know that even the best technology is only as good as the people behind it. That’s why we
@@ -299,100 +295,230 @@
                     <button class="input-group-text btn btn-dark">Search</button>
                 </div>
 
+            </div>
+        </div>
+    </div>
+
+    <!-- faq section -->
+
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center text-center mt-5">
+            <div class="faq-section">
+                <h1 class="lh-base">Millions of customers <br> rely on our domains and <br>web hosting to get their
+                    <br>ideas online.
+                </h1>
+                <h3 class="mb-5">Frequently Asked Questions</h3>
+
+                <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                <h3>How does GoDaddy help small business owners succeed?</h3>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                GoDaddy offers more than just a platform to build your website, we offer everything you
+                                need to create an effective,
+                                memorable online presence. Already have a site? We offer hosting plans that will keep it
+                                fast, secure and online. Our
+                                professional email helps you build a professional image, while our online marketing
+                                tools empower entrepreneurs to get
+                                online with an SEO-friendly website. GoDaddy is an all-in-one solution provider to get
+                                your idea online, backed with
+                                expert, personalized support from GoDaddy Guides.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <h3>Why do I need a website for my business?</h3>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                GoDaddy offers more than just a platform to build your website, we offer everything you
+                                need to create an effective,
+                                memorable online presence. Already have a site? We offer hosting plans that will keep it
+                                fast, secure and online. Our
+                                professional email helps you build a professional image, while our online marketing
+                                tools empower entrepreneurs to get
+                                online with an SEO-friendly website. GoDaddy is an all-in-one solution provider to get
+                                your idea online, backed with
+                                expert, personalized support from GoDaddy Guides.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                <h3>Why do I need a professional email?</h3>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                                this with
+                                custom CSS or overriding our default variables. It's also worth noting that just about
+                                any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <h3>What makes GoDaddy Web Hosting the world leader?</h3>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                GoDaddy offers more than just a platform to build your website, we offer everything you
+                                need to create an
+                                effective,
+                                memorable online presence. Already have a site? We offer hosting plans that will keep it
+                                fast, secure and
+                                online. Our
+                                professional email helps you build a professional image, while our online marketing
+                                tools empower
+                                entrepreneurs to get
+                                online with an SEO-friendly website. GoDaddy is an all-in-one solution provider to get
+                                your idea online,
+                                backed with
+                                expert, personalized support from GoDaddy Guides.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <h3>Why should I transfer my domain, website or web hosting to GoDaddy?</h3>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                GoDaddy offers more than just a platform to build your website, we offer everything you
+                                need to create an
+                                effective,
+                                memorable online presence. Already have a site? We offer hosting plans that will keep it
+                                fast, secure and
+                                online. Our
+                                professional email helps you build a professional image, while our online marketing
+                                tools empower
+                                entrepreneurs to get
+                                online with an SEO-friendly website. GoDaddy is an all-in-one solution provider to get
+                                your idea online,
+                                backed with
+                                expert, personalized support from GoDaddy Guides.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
 
 
-
-    <div class="row">
-        <div class="col-12 d-flex justify-content-center align-items-center text-center mt-5">
-            <div class="faq-section">
-            <h1 class="lh-base">Millions of customers <br> rely on our domains and <br>web hosting to get their <br>ideas online.</h1>
-            <h3 class="mb-5">Frequently Asked Questions</h3>
-
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            Accordion Item #1
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                        aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseTwo">
-                            Accordion Item #2
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseThree">
-                            Accordion Item #3
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-
-
-
-    </div>
-
-
-
-    </div>
-
     <footer class="row footer justify-content-center">
         <div class="row">
-            <div class="col-12">
-                <img src="./assets/godaddy-footer-logo.png" alt="">
+            <div class="col-12 col-md-4 col-sm-12 col-lg-4 ">
+                <img width="100%" src="./assets/godaddy-footer-logo.png" alt="">
             </div>
         </div>
         <hr style="color:#fff; font-size: 1rem;">
         <div class="row">
 
-            <div class="col-2">
-                <ul class="navbar-nav">
-                    <li><a class="footer-link-title" href="">About GoDaddy</a></li>
+
+            <!-- visible only mobile 
+            <div class="mobile-accordian d-none d-sm-block d-md-none">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the first item's accordion body.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's
+                                imagine this being
+                                filled with some actual content.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing
+                                more exciting
+                                happening here in terms of content, but just filling up the space to make it look, at
+                                least at first
+                                glance, a bit more representative of how this would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                mobile accordian close -->
+
+
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-2">
+            <ul class="navbar-nav">
+                <li><a class="footer-link-title" href="">About GoDaddy</a></li>
+                <div class="d-none d-lg-block">
                     <li><a href="">About Us</a></li>
                     <li><a href="">Contact Us</a></li>
                     <li><a href="">Newsroom</a></li>
@@ -402,20 +528,25 @@
                     <li><a href="">Annual Returns</a></li>
                     <li><a href="">Careers</a></li>
                     <li><a href="">Trust Center</a></li>
-                </ul>
-            </div>
-            <div class="col-2">
-                <ul class="navbar-nav text-white">
-                    <li><a class="footer-link-title" href="">Support</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2">
+            <ul class="navbar-nav text-white">
+                <li><a class="footer-link-title" href="">Support</a></li>
+                <div class="d-none d-lg-block">
+
                     <li><a href="">Product Support</a></li>
                     <li><a href="">Community</a></li>
                     <li><a href="">Report Abuse</a></li>
                     <li><a href="">Resources</a></li>
-                </ul>
-            </div>
-            <div class="col-2">
-                <ul class="navbar-nav text-white">
-                    <li><a class="footer-link-title" href="">Resources</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2">
+            <ul class="navbar-nav text-white">
+                <li><a class="footer-link-title" href="">Resources</a></li>
+                <div class="d-none d-lg-block">
                     <li><a href="">Webmail</a></li>
                     <li><a href="">WHOIS</a></li>
                     <li><a href="">ICANN Confirmation</a></li>
@@ -424,27 +555,35 @@
                     <li><a href="">Product Catalog</a></li>
                     <li><a href="">Customer Testimonials</a></li>
                     <li><a href="">Business Name Generator</a></li>
-                </ul>
-            </div>
-            <div class="col-2">
-                <ul class="navbar-nav text-white">
-                    <li><a class="footer-link-title" href="">Partner Programs</a></li>
+                </div>
+            </ul>
+
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2">
+            <ul class="navbar-nav text-white">
+                <li><a class="footer-link-title" href="">Partner Programs</a></li>
+
+                <div class="d-none d-lg-block">
                     <li><a href="">Affiliates</a></li>
                     <li><a href="">Reseller Programs</a></li>
                     <li><a href="">GoDaddy Pro</a></li>
-                </ul>
-            </div>
-            <div class="col-2">
-                <ul class="navbar-nav text-white">
-                    <li><a class="footer-link-title" href="">Account</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2">
+            <ul class="navbar-nav text-white">
+                <li><a class="footer-link-title" href="">Account</a></li>
+                <div class="d-none d-lg-block">
                     <li><a href="">My Products</a></li>
                     <li><a href="">Renewals & Billing</a></li>
                     <li><a href="">Create Account</a></li>
-                </ul>
-            </div>
-            <div class="col-2">
-                <ul class="navbar-nav text-white">
-                    <li><a class="footer-link-title" href="">Shopping</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-2">
+            <ul class="navbar-nav text-white">
+                <li><a class="footer-link-title" href="">Shopping</a></li>
+                <div class="d-none d-lg-block">
                     <li><a href="">Buy a Domain</a></li>
                     <li><a href="">Websites</a></li>
                     <li><a href="">WordPress</a></li>
@@ -452,10 +591,11 @@
                     <li><a href="">Web Security</a></li>
                     <li><a href="">Email & Office</a></li>
                     <li><a href="">Deals</a></li>
-
-                </ul>
-            </div>
+                </div>
+            </ul>
         </div>
+
+
         <div class="row">
             <div class="col-6 d-flex align-items-center justfy-content-center text-white">
                 <img width="200px" src="./assets/GoDaddy-white-logo.svg" alt="" />
@@ -469,6 +609,7 @@
             </div>
         </div>
         <hr style="color:#fff; font-size: 1rem;">
+
 
     </footer>
 
